@@ -1,3 +1,7 @@
+import i from "../img/1.jpeg";
+import ii from "../img/2.jpeg";
+import iii from "../img/3.jpeg";
+
 export interface PageContent {
   id: string;
   leftPage: {
@@ -14,7 +18,7 @@ export const pages: PageContent[] = [
   {
     id: "main",
     leftPage: {
-      image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&q=80",
+      image: i,
       caption: "My Beautiful Rose"
     },
     rightPage: {
@@ -33,7 +37,7 @@ Our love blooms beyond compare.`,
   {
     id: "second",
     leftPage: {
-      image: "https://images.unsplash.com/photo-1548588627-f978862b85e1?auto=format&fit=crop&q=80",
+      image: ii,
       caption: "A Garden of Love"
     },
     rightPage: {
@@ -52,39 +56,21 @@ You're my endless sweet delight.`,
   {
     id: "third",
     leftPage: {
-      image: "https://images.unsplash.com/photo-1548588627-f978862b85e1?auto=format&fit=crop&q=80",
-      caption: "A Garden of Love"
+      image: iii,
+      caption: "Joshita"
     },
     rightPage: {
-      poem: `Like roses dancing in the breeze,
-Your love sets my heart at ease.
-Each petal holds a memory dear,
-Of moments when you're near.
+    poem: `A glance, a whisper, a secret untold,
+Soft skin glows like moonlight’s gold.
+Her lips—ruby red, a silent sigh,
+Curved like verses that make time lie.
 
-Your beauty, like the morning rose,
-In gentle grace forever glows.
-In love's garden, pure and bright,
-You're my endless sweet delight.`,
-      author: "Forever Yours"
-    }
-  },
-  {
-    id: "fourth",
-    leftPage: {
-      image: "https://images.unsplash.com/photo-1548588627-f978862b85e1?auto=format&fit=crop&q=80",
-      caption: "A Garden of Love"
-    },
-    rightPage: {
-      poem: `Like roses dancing in the breeze,
-Your love sets my heart at ease.
-Each petal holds a memory dear,
-Of moments when you're near.
-
-Your beauty, like the morning rose,
-In gentle grace forever glows.
-In love's garden, pure and bright,
-You're my endless sweet delight.`,
-      author: "Forever Yours"
+Eyes lined with longing, dark and deep,
+Where shadows dance and secrets keep.
+A gaze that lingers, slow to part,
+Like a song that hums against the heart.
+.`,
+      author: "Gyan"
     }
   }
 ];
